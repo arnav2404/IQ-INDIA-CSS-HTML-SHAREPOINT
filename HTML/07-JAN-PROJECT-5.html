@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><H1>HTML5 FORMS</H1></center>
+    <HR></HR>
+
+    <fieldset style="width: 50%;"> <!-- it gives you a box type line arround the code-->
+        <legend><marquee >Student Registration Form</marquee></legend> <!-- :"legend" tag fixes a data in a same location on the line of the box instead inside of it. and "marquee" tag makes it rotate from left to right or vice-versa-->
+
+       <form action="" method="get" enctype="">
+        <div>
+            <label for="sn">Student Name</label>
+            <br>
+            <input id="sn" type="text" name="student_name" value="" placeholder="Name"  required >
+        </div>
+        <div>
+            <label for="sn">Student Password</label>
+            <br>
+            <input id="sn" type="password" name="student_name" value="" placeholder="Password"  required >
+        </div>
+        <br>
+        <div>
+            <label for="sn">Student Age</label>
+            <br>
+            <input id="sn" type="number" name="student_age"  placeholder="Age"  required >
+        </div>
+        <br>
+        <div>
+            <label for="sn">Student Gender</label>
+            <br>
+            Male:<input id="sn" type="radio" name="student_gender"    required >
+            FeMale:<input id="sn" type="radio" name="student_gender"    required >
+            Other:<input id="sn" type="radio" name="student_gender"    required >
+        </div>
+        <br>
+        <div>
+            <label for="sn">Student Subject</label>
+            <br>
+            Math:<input id="sn" type="checkbox" name="student_math"     >
+            Science:<input id="sn" type="checkbox" name="student_science"     >
+            Computer:<input id="sn" type="checkbox" name="student_computer"     >
+        </div>
+        <br>
+        <div>
+            <label for="sn">Student DOB</label>
+            <br>
+            <input id="sn" type="date" name="student_dob"   required  >
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <label for="sn">Student Docments</label>
+            <br>
+            <input id="sn" type="file" name="student_dob"   required  >
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <label for="sn">Student Regestration progress</label>
+            <br>
+            <meter min="0" max="100" value="10"></meter>
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <label for="sn">Student Class</label>
+            <br>
+           <select name="class" id="">
+            <option  value="">Choose Class</option>
+            <option value="CLASS-1">CLASS-1</option>
+            <option value="CLASS-2">CLASS-2</option>
+            <option value="CLASS-3">CLASS-3</option>
+            <option value="CLASS-4">CLASS-4</option>
+            <option value="CLASS-5">CLASS-5</option>
+            <option value="CLASS-6">CLASS-6</option>
+            <option value="CLASS-7">CLASS-7</option>
+            <option value="CLASS-8">CLASS-8</option>
+            <option value="CLASS-9">CLASS-9</option>
+            <option value="CLASS-10">CLASS-10</option>
+            <option value="CLASS-11">CLASS-11</option>
+            <option value="CLASS-12">CLASS-12</option>
+           </select>
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <label for="sn">Student Course</label>
+            <br>
+            <input type="text" list="course">
+            <datalist id="course">
+                <option value="Python">Python</option>
+                <option value="HTML">HTML</option>
+                <option value="Javascript">Javascript</option>
+                <option value="CSS">CSS</option>
+                <option value="C#">C#</option>
+                <option value="Apex">Apex</option>
+                <option value="My-SQL">My-SQL</option>
+            </datalist>
+        </div>
+        <br>
+        <label for="">Message</label>
+        <br>
+        <br>
+        <textarea style="resize:vertical;" cols="35" rows="3" name="" id="">
+        </textarea>
+
+        
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+    <a href="Symbol Sites.txt" download><button>Download</button></a>
+    </fieldset>
+</body>
+</html>
