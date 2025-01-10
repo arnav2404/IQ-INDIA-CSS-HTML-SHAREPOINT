@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div style="width:50%; margin:auto;">
+    <h1>Customer Oder Management System📕<hr></h1>
+    <h2>General information 📝<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><label for="Ar" >Name:</label></td>
+            <td >
+                <input type="text" name="student_name" id="Ar" value="" placeholder="name" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Er" >Email:</label></td>
+            <td>
+                <input type="text" name="student_email" id="Er" value="" placeholder="Email" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Pr" >Phone:</label></td>
+            <td>
+                <input type="text" name="student_phone" id="Pr" value="" placeholder="Phone" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Dr">Date of Birth:</label></td>
+            <td><input type="date" name="" id="Dr"></td>
+        </tr>
+        <tr>
+            <td><label for="Gr">Gender:</label></td>
+            <td>
+                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Male
+                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Female
+                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Others
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Cr">Country:</label></td>
+            <td>
+                <select name="Country" id="Cr">
+                    <option value="USA">USA <sub>us</sub></sub></option>
+                    <option value="India">India <sub>In</sub></sub></option>
+                    <option value="France">France <sub>Fr</sub></sub></option>
+                    <option value="Canada">Canada <sub>Ca</sub></sub></option>
+                    <option value="Japan">Japan <sub>JP</sub></sub></option>
+                    <option value="China">USA <sub>Cn</sub></sub></option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <h2>Shipping information 🚚<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><label for="Rr" >Recipient Name:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="recipient_name" id="Rr" value="" placeholder="Enter recipient's name" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Sr" >Shipping Address</label></td>
+            <td style="width:66%;">
+                <input type="text" name="recipient_address" id="Sr" value="" placeholder="Enter recipient's Address" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="City" >City:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="recipient_city" id="City" value="" placeholder="Enter recipient's City" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Zip" >Zip Code:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="recipient_zip_code" id="Zip" value="" placeholder="Enter recipient's Zip Code" required>
+            </td>
+        </tr>
+    </table>
+    <h2>Billing information 💳<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><label for="Br" >Billing Name:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="billing_name" id="Br" value="" placeholder="Enter billing name" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Sa" >Shipping Address</label></td>
+            <td style="width:66%;">
+                <input type="text" name="billing_address" id="Sa" value="" placeholder="Enter billing Address" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Cb" >City:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="billing_city" id="Cb" value="" placeholder="Enter billing City" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Zb" >Zip Code:</label></td>
+            <td style="width:66%;">
+                <input type="text" name="billing_zip_code" id="Zb" value="" placeholder="Enter billing Zip Code" required>
+            </td>
+        </tr>
+    </table>
+    <h2>Items Table 🛒<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%; text-align: center;" cellpadding="10">
+        <tr>
+            <th>Item Name</th>
+            <th>Quality</th>
+            <th>Unit Price ($)</th>
+            <th>Total Price ($)</th>
+        </tr>
+        <tr>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="text" name="" id="In">
+            </td>
+            <td>
+                <select name="quality" id="Pm">
+                    <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
+                    <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
+                    <option value="GOOD">Good⭐⭐⭐⭐</option>
+                    <option value="BAD">Bad⭐⭐⭐</option>
+                    <option value="VERY BAD">Very Bad⭐⭐`</option>
+                    <option value="WORST">Worst⭐</option>
+                </select>
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="text" name="" id="In">
+            </td>
+            <td>
+                <select name="quality" id="Pm">
+                    <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
+                    <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
+                    <option value="GOOD">Good⭐⭐⭐⭐</option>
+                    <option value="BAD">Bad⭐⭐⭐</option>
+                    <option value="VERY BAD">Very Bad⭐⭐`</option>
+                    <option value="WORST">Worst⭐</option>
+                </select>
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="text" name="" id="In">
+            </td>
+            <td>
+                <select name="quality" id="Pm">
+                    <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
+                    <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
+                    <option value="GOOD">Good⭐⭐⭐⭐</option>
+                    <option value="BAD">Bad⭐⭐⭐</option>
+                    <option value="VERY BAD">Very Bad⭐⭐`</option>
+                    <option value="WORST">Worst⭐</option>
+                </select>
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In">
+            </td>
+        </tr>
+    </table>
+    <h2>Payment Information 💳<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><label for="Pm">Payment Method:</label></td>
+            <td>
+                <select name="payment_method" id="Pm">
+                    <option value="visa">Visa Credit Card</option>
+                    <option value="visa">Visa Debit Card</option>
+                    <option value="Rupay">Rupay Credit Card</option>
+                    <option value="Rupay">Rupay Debit Card</option>
+                    <option value="Master">Master Credit Card</option>
+                    <option value="Master">Master Debit Card</option>
+                    <option value="Amex">Amex Credit Card</option>
+                    <option value="Amex">Amex Debit Card</option>
+                    <option value="UPI_ID">UPI ID</option>
+                    <option value="UPUI_Apps">PayTM, PhonePe, Gpay</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <h2>Coupon Code 🎁<hr></h2>
+    <label for="Cc">Enter Coupon Code:</label>
+    <input type="text" name="" id="Cc">
+    <h2>Additional Comments 💬<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><textarea name="tr" id="" cols="85" rows="8">Enter  any additional comments here....</textarea></td>
+        </tr>
+    </table>
+    <h2>Review Your Order 📦<hr></h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
+        <tr>
+            <td><label for="Ta" >Total Amount:</label></td>
+            <td style="width:66%;">
+                <input type="number" name="total_amount" id="Ta" value="" placeholder="" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Es" >Estimated Shipping:</label></td>
+            <td style="width:66%;">
+                <input type="number" name="estimated_shipping" id="Es" value="" placeholder="" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Ft" >Final Total:</label></td>
+            <td style="width:66%;">
+                <input type="number" name="final_total" id="Ft" value="" placeholder="" required>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <button type="submit">Submit 🚀</button>
+</div>
+</body>
+</html>
