@@ -13,19 +13,19 @@
         <tr>
             <td><label for="Ar" >Name:</label></td>
             <td >
-                <input type="text" name="student_name" id="Ar" value="" placeholder="name" required>
+                <input type="text" name="general_name" id="Ar" value="" placeholder="name" required>
             </td>
         </tr>
         <tr>
             <td><label for="Er" >Email:</label></td>
             <td>
-                <input type="text" name="student_email" id="Er" value="" placeholder="Email" required>
+                <input type="text" name="general_email" id="Er" value="" placeholder="Email" required>
             </td>
         </tr>
         <tr>
             <td><label for="Pr" >Phone:</label></td>
             <td>
-                <input type="text" name="student_phone" id="Pr" value="" placeholder="Phone" required>
+                <input type="number" name="general_phone" id="Pr" value="" placeholder="Phone" required>
             </td>
         </tr>
         <tr>
@@ -35,9 +35,9 @@
         <tr>
             <td><label for="Gr">Gender:</label></td>
             <td>
-                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Male
-                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Female
-                <input type="radio" name="student_gender" id="Gr" value="" placeholder="Gender" required>Others
+                <input type="radio" name="general_gender" id="Gr" value="" placeholder="Gender" required>Male
+                <input type="radio" name="general_gender" id="Gr" value="" placeholder="Gender" required>Female
+                <input type="radio" name="general_gender" id="Gr" value="" placeholder="Gender" required>Others
             </td>
         </tr>
         <tr>
@@ -77,7 +77,7 @@
         <tr>
             <td><label for="Zip" >Zip Code:</label></td>
             <td style="width:66%;">
-                <input type="text" name="recipient_zip_code" id="Zip" value="" placeholder="Enter recipient's Zip Code" required>
+                <input type="number" name="recipient_zip_code" id="Zip" value="" placeholder="Enter recipient's Zip Code" required>
             </td>
         </tr>
     </table>
@@ -104,7 +104,7 @@
         <tr>
             <td><label for="Zb" >Zip Code:</label></td>
             <td style="width:66%;">
-                <input type="text" name="billing_zip_code" id="Zb" value="" placeholder="Enter billing Zip Code" required>
+                <input type="number" name="billing_zip_code" id="Zb" value="" placeholder="Enter billing Zip Code" required>
             </td>
         </tr>
     </table>
@@ -113,8 +113,9 @@
         <tr>
             <th>Item Name</th>
             <th>Quality</th>
-            <th>Unit Price ($)</th>
-            <th>Total Price ($)</th>
+            <th>No. of Units</th>
+            <th>Unit Price (&#8377;)</th>
+            <th>Total Price (&#8377;)</th>
         </tr>
         <tr>
             <td>
@@ -124,11 +125,11 @@
             <td>
                 <select name="quality" id="Pm">
                     <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
-                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐</option>
                     <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
                     <option value="GOOD">Good⭐⭐⭐⭐</option>
                     <option value="BAD">Bad⭐⭐⭐</option>
-                    <option value="VERY BAD">Very Bad⭐⭐`</option>
+                    <option value="VERY BAD">Very Bad⭐⭐</option>
                     <option value="WORST">Worst⭐</option>
                 </select>
             </td>
@@ -138,32 +139,11 @@
             </td>
             <td>
                 <label for="In"></label>
-                <input style="width:95%;" type="number" name="" id="In">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="In"></label>
-                <input style="width:95%;" type="text" name="" id="In">
-            </td>
-            <td>
-                <select name="quality" id="Pm">
-                    <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
-                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
-                    <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
-                    <option value="GOOD">Good⭐⭐⭐⭐</option>
-                    <option value="BAD">Bad⭐⭐⭐</option>
-                    <option value="VERY BAD">Very Bad⭐⭐`</option>
-                    <option value="WORST">Worst⭐</option>
-                </select>
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
             </td>
             <td>
                 <label for="In"></label>
-                <input style="width:95%;" type="number" name="" id="In">
-            </td>
-            <td>
-                <label for="In"></label>
-                <input style="width:95%;" type="number" name="" id="In">
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
             </td>
         </tr>
         <tr>
@@ -174,11 +154,11 @@
             <td>
                 <select name="quality" id="Pm">
                     <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
-                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐`</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐</option>
                     <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
                     <option value="GOOD">Good⭐⭐⭐⭐</option>
                     <option value="BAD">Bad⭐⭐⭐</option>
-                    <option value="VERY BAD">Very Bad⭐⭐`</option>
+                    <option value="VERY BAD">Very Bad⭐⭐</option>
                     <option value="WORST">Worst⭐</option>
                 </select>
             </td>
@@ -188,7 +168,40 @@
             </td>
             <td>
                 <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="text" name="" id="In">
+            </td>
+            <td>
+                <select name="quality" id="Pm">
+                    <option value="GREAT">Great⭐⭐⭐⭐⭐⭐⭐</option>
+                    <option value="BEST">Best⭐⭐⭐⭐⭐⭐</option>
+                    <option value="VERY_GOOD">Very Good⭐⭐⭐⭐⭐</option>
+                    <option value="GOOD">Good⭐⭐⭐⭐</option>
+                    <option value="BAD">Bad⭐⭐⭐</option>
+                    <option value="VERY BAD">Very Bad⭐⭐</option>
+                    <option value="WORST">Worst⭐</option>
+                </select>
+            </td>
+            <td>
+                <label for="In"></label>
                 <input style="width:95%;" type="number" name="" id="In">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
+            </td>
+            <td>
+                <label for="In"></label>
+                <input style="width:95%;" type="number" name="" id="In" placeholder="&#8377;">
             </td>
         </tr>
     </table>
@@ -224,21 +237,21 @@
     <h2>Review Your Order 📦<hr></h2>
     <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="10">
         <tr>
-            <td><label for="Ta" >Total Amount:</label></td>
+            <td><label for="Ta" >Total Amount (&#8377;):</label></td>
             <td style="width:66%;">
-                <input type="number" name="total_amount" id="Ta" value="" placeholder="" required>
+                <input type="number" name="total_amount" id="Ta" value="" placeholder="&#8377;" required>
             </td>
         </tr>
         <tr>
-            <td><label for="Es" >Estimated Shipping:</label></td>
+            <td><label for="Es" >Estimated Shipping (&#8377;):</label></td>
             <td style="width:66%;">
-                <input type="number" name="estimated_shipping" id="Es" value="" placeholder="" required>
+                <input type="number" name="estimated_shipping" id="Es" value="" placeholder="&#8377;" required>
             </td>
         </tr>
         <tr>
-            <td><label for="Ft" >Final Total:</label></td>
+            <td><label for="Ft" >Final Total (&#8377;):</label></td>
             <td style="width:66%;">
-                <input type="number" name="final_total" id="Ft" value="" placeholder="" required>
+                <input type="number" name="final_total" id="Ft" value="" placeholder="&#8377;" required>
             </td>
         </tr>
     </table>
