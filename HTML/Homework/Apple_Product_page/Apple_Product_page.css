@@ -1,0 +1,151 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color:rgb(4, 255, 180);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .main{
+    position: relative;
+    margin: auto;
+ }
+ .product-template{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15% 20%;
+    left: 30%;
+    margin-top: 7%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px 2px;
+    position: absolute;
+ }.product-template:hover{
+    box-shadow: 0px 0px 30px 5px;
+    transition: 0.3s;
+ }
+ .product-details{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+ }
+ .product-details p{
+    color: rgba(128, 128, 128, 0.659);
+    margin:10% 0%;
+    max-width: 85%;
+ }
+ .product-details p:hover{
+    color: rgb(63, 63, 63);
+ }
+ .select-color{
+    position: absolute;
+ }
+ ul{
+    margin-top: 45%;
+    color: rgb(84, 84, 84);
+ }
+ .code{
+    color: rgba(128, 128, 128, 0.659);
+    font-size: 0.7em;
+    font-weight:600;
+ }
+ .code:hover{
+    color: rgb(63, 63, 63);
+ }
+ .price{
+    color: red;
+ }
+ .price span{
+    font-size: 3em;
+ }
+ .price:hover{
+    zoom: 1.1;
+ }
+ .color{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 2%;
+    bottom: 25%;
+    left: -4%;
+ }
+ .color img{
+    width: 45px;
+    height: 45px;
+    margin: 0 2%;
+    border: 1px solid black;
+ }
+ .color img:hover{
+    zoom: 1.1;
+ }
+ .color img:active{
+    transform: scale(0.95);
+ }
+ .bene{
+    bottom: 20%;
+    position: absolute;
+    
+ }
+ .apple-tile{
+    background: radial-gradient(rgb(235, 252, 183),rgb(166, 255, 0));
+    border: 1px solid rgb(166, 255, 0);
+    border-radius: 8px;
+    left: -5%;
+    bottom: 6%;
+    padding: 33% 20%;
+    position: absolute;
+    cursor: pointer;
+ }
+ .apple-tile:hover{
+    box-shadow: -6px -1px 15px 1px;
+    transition: 0.3s;
+ }
+ .apple-img{
+    margin:auto;
+    bottom: 37%;
+    left: -9%;
+    filter: drop-shadow(5px 5px 6px black);
+    position: absolute;
+ }
+ .white-bar{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    border-radius: 2px;
+    padding: 2%;
+    bottom: -1%;
+    left: -1%;
+ }
+ .white-bar img{
+    width: 45px;
+    height: 45px;
+    margin:0 2%;
+    border: 1px solid black;
+ }
+ .white-bar img:hover{
+    zoom: 1.1;
+ }
+ .white-bar img:active{
+    transform: scale(0.95);
+ }
+ .add-to-cart button{
+    background-color: red;
+    padding: 5% 8%;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10%;
+    cursor: pointer;
+ }
+ .add-to-cart button:hover{
+    background-color: rgb(172, 1, 1);
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px 2px black;
+ }
+ .add-to-cart button:active {
+    transform: scale(0.95);
+}
