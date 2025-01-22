@@ -26,7 +26,8 @@ body{
     gap:15px;
   }
   .icon-link{
-    color: white;font-size: 15px;
+    color: white;
+    font-size: 15px;
     transition: color 0.3s;
   }
   .icon-link:hover{

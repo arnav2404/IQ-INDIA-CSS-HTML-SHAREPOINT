@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(55deg, red, orange);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    position: relative; 
+    margin: auto;
+    width: 40%;
+    top: 25%;
+}
+.back-card{
+    border-radius: 25px;
+    padding: 5% 10%;
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 2px 10px 1px black;
+}
+.data{
+    margin-left: 35%;
+    width: 70%;
+}
+.red-card{
+    box-shadow: 1px 2px 10px 1px black;
+    border-radius: 25px;
+    position: absolute;
+    left: -5%;
+    background: linear-gradient(-10deg, red, rgb(255, 170, 0));
+    padding: 15%;
+}
+.red-card:hover{
+    box-shadow: 1px 2px 10px 5px black;
+    transition: 0.3s all;
+}
+.data button{
+    padding:3% 7%;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(-10deg, red, rgb(255, 170, 0));
+}
+.data button:hover{
+    box-shadow: 1px 2px 10px 1px black;
+    transition: 0.3s all;
+}
