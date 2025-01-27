@@ -1,0 +1,119 @@
+/* .main p:nth-child(even){
+    color: red;
+}
+.main p:nth-child(odd){
+    color: rgb(208, 255, 0);
+}
+.main p:first-child{
+    color: blue;
+}
+.main p:last-child{
+    color: rgb(255, 0, 72);
+}
+start with (^)
+[class^="c"]{
+    background-color: aquamarine;
+}
+[class^="1"]{
+    background-color: rgb(201, 59, 253);
+}
+ends with
+[class$="3"]{
+    background-color: rgb(0, 255, 255);
+}
+contain
+[class*="e"],[class*="6"]{
+    background-color: rgb(42, 250, 101);
+}
+not
+p:not(.comman){
+    background-color: black;
+} */
+/* ---------------------------------------------------------- */
+/* p::first-letter{
+    color: blue;
+} */
+/* only first line will be colored after br it will not cover with color */
+/* p::first-line{
+    color: blue;
+}
+[class$="e"]::first-line{
+    color: red;
+} */
+/* advanced selectore */
+
+/* jo main div h uske se juda hua pehla element uspe color chadega agar (+) */
+/* .main+P{
+    background-color: tomato;
+} */
+
+/* Adjecent - agar ek element se dusre pe hover krna ho jo usse juda hua niche ki taraf toh class:hover ke age (+) laga do */
+/* button:hover+.main{
+    background-color: tomato;
+}
+
+.main{
+    width:30%;
+    padding: 2%;
+    border: 2px solid;
+}
+button{
+    position: absolute;
+    top: 20%;
+} */
+ /* ------sibilings------ */
+/* .main ~ p{
+    background-color: red;
+}
+decendent */
+/* .main p{
+    background-color: yellow;
+} */
+/* direct child */
+/* .main > h1{
+    background-color: purple;
+}
+button:active{
+    background-color: blue;
+} */
+ .main{
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+ }
+ .col{
+    border: 2px solid red;
+    width: 15%;
+    height: 30vh;
+ }
+ .col-1:hover{
+    background-color: blue;
+    transform: translateX(100px);
+    transform: translateX(100px);
+    transform: translate(100px, 200px);
+    transition: 1s all;
+ }
+ .col-2:hover{
+    background-color: blue;
+    transform: rotateX(200deg);
+    transform: rotateX(200deg);
+    transform: rotate(180deg);
+    border-radius: 100%;
+    transition: 1s all;
+ }
+ .col-3:hover{
+    background-color: blue;
+    transform:scaleX(3);
+    transform:scaleY(3);
+    transform:scale(3);
+    /* border-radius: 100%; */
+    transition: 1s all;
+ }
+ .col-4:hover{
+    background-color: blue;
+    transform: skewX(30deg);
+    transform: skewY(30deg);
+    transform: skew(30deg);
+    /* border-radius: 100%; */
+    transition: 1s all;
+ }

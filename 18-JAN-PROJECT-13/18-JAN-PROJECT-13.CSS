@@ -3,7 +3,6 @@ fieldset{
     margin: auto;
     padding: 50px;
     /* background-color: rgb(0, 255, 128); */
-
 }
 input:focus{
     border: 1px solid red;
@@ -81,5 +80,4 @@ input[type="reset"]{
     background: linear-gradient(45deg,rgba(217, 0, 0, 0.966),rgba(255, 230, 0, 0.857));
     color: white;
     padding: 15px ;
-
 }

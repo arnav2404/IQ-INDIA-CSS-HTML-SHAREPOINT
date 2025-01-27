@@ -1,0 +1,94 @@
+/* a{
+    display:block ;
+    text-decoration: none;
+    text-align: center;
+    background-color: aqua;
+    width: 5%;
+}
+p{
+    display: inline-block;
+    background-color: rgb(253, 126, 0);
+    color: white;
+    height: 20vh;
+    width: 10%;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .col{
+    width: 20%;
+    height: 64vh;
+    border: 2px solid red;
+    /* padding: 1%; */
+ }
+ /* .main{
+    background-color: cyan;
+    height: 100vh;
+ } */
+ .row{
+    padding: 2%;
+    height: 70vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: rgb(255, 179, 0); */
+    /* color: white; */
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-items: baseline; */
+    gap: 2%;
+    flex-wrap: wrap;
+    /* margin: 2%; */
+ }
+ /* .row .col:hover{
+    margin: 2%;
+ } */
+ /* .row .col-1{
+    align-self: center;
+    flex-basis: 50%;
+    
+ }
+ .row .col-2{
+    align-self:end;
+    flex-basis: 30%;
+
+ }
+ .row .col-3{
+    align-self: center;
+    flex-basis: 20%;
+ } */
+.row .col img{
+    width: 100%;
+}
+.row .col .content{
+    padding: 5%;
+}
+.btn button{
+    border: none;
+    padding: 3% 6%;
+    color: white;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+.btn button:nth-child(1){
+    background: linear-gradient(10deg, red, orange);
+}
+.btn button:nth-child(2){
+    background: linear-gradient(10deg, rgb(0, 255, 191), rgb(25, 0, 255));
+}
+.row .col-1:hover{
+    margin-top: 1%;
+    transition: all 0.5s;
+}
+.row .col-2:hover{
+    margin-top: 5%;
+    transition: all 0.5s;
+}
+.row .col-3:hover{
+    margin-top: 10%;
+    transition: all 0.5s;
+}
+.row .col-4:hover{
+    margin-top: 15%;
+    transition: all 0.5s;
+}

@@ -1,0 +1,42 @@
+:root{
+    --g1 : red;
+    --g2 : rgb(225, 255, 0);
+    --g3 : rgb(0, 255, 85);
+    --g4 : rgb(0, 21, 255);
+    --g5 : rgb(255, 0, 136);
+    --g6 : rgb(255, 170, 0);
+    --bg: rgb(4, 255, 213);
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+
+}
+.col-1{
+    background-color: var(--g1);
+}
+.col-2{
+    background-color: var(--g2);
+}
+.col-3{
+    background-color: var(--g3);
+}
+.col-4{
+    background-color: var(--g4);
+}
+.col-5{
+    background-color: var(--g5);
+}
+.col-6{
+    background-color: var(--g6);
+}
+.main{
+    display: grid;
+    grid-template-columns: 250px 350px 100px 250px 100px 400px;
+    /* grid-template-columns: repeat(6,100px); */
+    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    grid-template-rows: 200px 150px;
+}
