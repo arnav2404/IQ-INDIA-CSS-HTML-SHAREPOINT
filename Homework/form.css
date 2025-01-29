@@ -1,0 +1,41 @@
+fieldset{
+    width: 35%;
+    border: none;
+    box-shadow: 4px 4px 40px 5px rgba(126.99999999999955, 0, 255, 0.05);
+    margin: auto;
+    border-radius: 12px;
+    padding: 3% 2%;
+    height: 70vh;
+}
+input{
+    border:1px solid rgba(0, 0, 0, 0.182);
+    color: rgba(0, 0, 0, 0.182);
+    width: 95%;
+    padding: 2.5% 2%;
+    border-radius: 8px;
+}
+textarea{
+    width: 95%;
+    border-radius: 8px;
+    padding: 2.5% 2%;
+    border:1px solid rgba(0, 0, 0, 0.182);
+    color: rgba(0, 0, 0, 0.182);
+}
+.button5 button{
+    border: none;
+    background-color: #f96f25;
+    font-size: 1.2em;
+    padding: 3%;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+}
+.button5 button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button5 button:hover{
+    background-color: #29aad7;;
+    transition: 0.5s all;
+  }
