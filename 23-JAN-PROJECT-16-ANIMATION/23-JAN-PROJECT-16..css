@@ -1,13 +1,88 @@
 .main{
+    position: relative;
+}
+.col{
     background-color: red;
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    animation-name: circle;
-    animation-duration: 15s;
+    position: absolute;
     animation-iteration-count: infinite;
 }
-@keyframes circle{
+.col-1{
+    animation-name: col-1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.col-2{
+    animation-name: col-2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}.col-3{
+    animation-name: col-3;
+    animation-delay: 3s;
+    animation-duration: 4s;
+}.col-4{
+    animation-name: col-4;
+    animation-delay: 4s;
+    animation-duration: 4s;
+}
+@keyframes col-1{
+    0%{
+       transform: translate(0px,0px);
+       background-color: blue;
+    }
+    25%{
+        transform: translate(1320px,0px);
+       background-color: green;
+
+    }
+    50%{
+        transform: translate(1320px,490px);
+       background-color: yellow;
+    }
+    75%{
+        transform: translate(0px,490px);
+       background-color: orange;
+    }
+    100%{
+        transform: translate(0px,0px);
+        background-color: rgb(0, 255, 213);
+    }
+}
+@keyframes col-2{
+    0%{
+       transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(1320px,0px);
+    }
+    50%{
+        transform: translate(1320px,490px);
+    }
+    75%{
+        transform: translate(0px,490px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}@keyframes col-3{
+    0%{
+       transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(1320px,0px);
+    }
+    50%{
+        transform: translate(1320px,490px);
+    }
+    75%{
+        transform: translate(0px,490px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}@keyframes col-4{
     0%{
        transform: translate(0px,0px);
     }

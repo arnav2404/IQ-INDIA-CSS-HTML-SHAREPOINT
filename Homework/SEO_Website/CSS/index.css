@@ -8,7 +8,7 @@ body{
 .header{
     width: 100%;
     padding: 1% 0;
-    background-image: url(/SEO_Website/ASSETS/Group-1.png);
+    background-image: url(/ASSETS/Group-1.png);
 }
 .header-top{
     display: flex;
@@ -100,7 +100,7 @@ body{
   }
   .main{
     height: 100vh;
-    background-image: url(/SEO_Website/ASSETS/Group-1.png);
+    background-image: url(/ASSETS/Group-1.png);
   }
   .main-content h1{
     position: absolute;
@@ -395,7 +395,7 @@ body{
   }
   .main4{
     height: 115vh;
-    background-image: url(/SEO_Website/ASSETS/Group-2.png);
+    background-image: url(/ASSETS/Group-2.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -693,7 +693,7 @@ body{
   }
   .home-main-9{
     margin-top: 7%;
-    background-image: url(/SEO_Website/ASSETS/Group-2.png);
+    background-image: url(/ASSETS/Group-2.png);
     background-size: cover;
     width: 100%;
     height: 80vh;
@@ -753,7 +753,7 @@ body{
     transition: 0.5s all;
   }
   .home-main-10{
-    height: 110vh;
+    height: 130vh;
     background-color: #f7f7fd;
     position: relative;
   }
@@ -768,7 +768,7 @@ body{
     box-shadow: 4px 4px 40px 5px rgba(126.99999999999955, 0, 255, 0.05);
     margin: auto;
     border-radius: 12px;
-    height: 80vh;
+    height: 90vh;
 }
 form{
   padding: 8%;
@@ -789,7 +789,7 @@ input{
 textarea{
     width: 95%;
     outline: none;
-    color: rgba(0, 0, 0, 0.182);
+    color: rgba(0, 0, 0, 0.342);
     border:1px solid rgba(0, 0, 0, 0.182);
     border-radius: 8px;
     padding: 2.5% 2%;
@@ -814,3 +814,93 @@ textarea{
     background-color: #29aad7;;
     transition: 0.5s all;
   }
+  .main-10-upper-content{
+    padding:8% 12%;
+  }
+  .main-10-content-1 p{
+    color: #412dc2;
+    font-weight: bold;
+    margin-bottom: 3%;
+  }
+  .main-10-content-1 h2{
+    font-size: 3em;
+    width: 37%;
+    line-height: 1.2em;
+    margin-bottom: 3.5%;
+  }
+  .main-10-content-1 span{
+    display: inline-block;
+    font-size: 1.5em;
+    width: 45%;
+    line-height: 1.7em;
+    color: #313030aa;
+    margin-bottom: 4%;
+  }
+  .main-10-content-2{
+    line-height: 3em;
+    margin-bottom: 5%
+  }
+  .icons-list p{
+    margin-bottom: 5%;
+  }
+  .icons-10 a{
+    margin: 0.5%;
+    font-size: 1.2em;
+  }
+  .icons-10 i{
+    gap: 10%;
+    color: #69727d;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 100px;
+  }
+  .icons-10 i:hover{
+    color: #f96f25;
+    border-color: #f96f25;
+    transition: 0.5s all;
+  }
+  .home-main-11{
+    display: flex;
+    justify-content: center;
+    background-color: #09061a;
+    height: 70vh;
+    padding: 3% 0;
+    color: white;
+    line-height: 2.5em;
+    font-size: 1.1em;
+}
+.footer-columns{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.footer-columns div p:hover{
+    transition: 0.3s all;
+    color: #f96f25;
+}
+.footer-columns div span:hover{
+    color: #f96f25;
+}
+.col-1{
+    width: 23%;
+}
+.col-1-img img{
+    margin-top: 10%;
+}
+.col-1-content span{
+    display: inline-block;
+    line-height: 1.7em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.col-2{
+    width: 11%;
+}
+.col-3{
+    width: 13%;
+}
+.col-4-content p a{
+  text-decoration: none;
+  color: #F6F3FB;
+}

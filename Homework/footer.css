@@ -1,0 +1,39 @@
+.home-main-11{
+    display: flex;
+    justify-content: center;
+    background-color: #09061a;
+    height: 100vh;
+    color: white;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+.footer-columns{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.footer-columns div p:hover{
+    transition: 0.3s all;
+    color: #f96f25;
+}
+.footer-columns div span:hover{
+    color: #f96f25;
+}
+.col-1{
+    width: 23%;
+}
+.col-1-img img{
+    margin-top: 10%;
+}
+.col-1-content span{
+    display: inline-block;
+    line-height: 1.7em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.col-2{
+    width: 11%;
+}
+.col-3{
+    width: 13%;
+}

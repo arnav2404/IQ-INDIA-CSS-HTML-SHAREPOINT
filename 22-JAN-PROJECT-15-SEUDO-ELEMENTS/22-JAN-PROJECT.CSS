@@ -37,6 +37,7 @@ p:not(.comman){
 /* p::first-line{
     color: blue;
 }
+// endswith($)
 [class$="e"]::first-line{
     color: red;
 } */
