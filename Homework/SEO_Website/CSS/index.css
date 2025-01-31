@@ -850,6 +850,7 @@ textarea{
   .icons-10 i{
     gap: 10%;
     color: #69727d;
+    cursor: pointer;
     text-decoration: none;
     border: 1px solid black;
     padding: 1%;
@@ -869,6 +870,7 @@ textarea{
     color: white;
     line-height: 2.5em;
     font-size: 1.1em;
+    cursor: pointer;
 }
 .footer-columns{
     display: flex;
