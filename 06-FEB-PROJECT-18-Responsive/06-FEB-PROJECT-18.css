@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    gap: 0.5%;
+}
+.col{
+    width: 20%;
+    height: 60vh;
+    border: 2px solid red;
+    font-size: clamp(16px, 5vw, 50px);
+}
+.col-1{
+    background-color: aqua;
+}
+img{
+    width: 100%;
+    height: 30vh;
+}
+.col-2{
+    background-color: red;
+}
+.col-3{
+    background-color: green;
+}
+.col-4{
+    background-color: orange;
+}
+.col-5{
+    background-color: rgb(254, 0, 254);
+}
+/* Breakpoint */
+/* 1. Extra Small - less than 480px */
+/* 2. Small 481px - 780px */
+/* 3. Medium Devices  781px - 1024px*/
+/* 4. Large Devices 1025px - 1200px */
+/* 5. Extra Large Devices - greater than 1201 */
+
+@media (max-width:480px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+    
+    .col-1{
+        background-color: red;
+    }
+}
+@media(min-width:480px) and (max-width:781px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+}
+@media(min-width:781px) and (max-width:1024px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+}
